@@ -16,6 +16,8 @@
 		4CDCF02B27F499C4008328BA /* ShopGroupAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCF02A27F499C4008328BA /* ShopGroupAppTests.swift */; };
 		4CDCF03527F499C4008328BA /* ShopGroupAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCF03427F499C4008328BA /* ShopGroupAppUITests.swift */; };
 		4CDCF03727F499C4008328BA /* ShopGroupAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCF03627F499C4008328BA /* ShopGroupAppUITestsLaunchTests.swift */; };
+		4CDCF04C27F4B418008328BA /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCF04B27F4B418008328BA /* DBHelper.swift */; };
+		4CDCF04E27F4B436008328BA /* ShopGroupAppDB.db in Resources */ = {isa = PBXBuildFile; fileRef = 4CDCF04D27F4B436008328BA /* ShopGroupAppDB.db */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4CDCF03027F499C4008328BA /* ShopGroupAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopGroupAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CDCF03427F499C4008328BA /* ShopGroupAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopGroupAppUITests.swift; sourceTree = "<group>"; };
 		4CDCF03627F499C4008328BA /* ShopGroupAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopGroupAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4CDCF04B27F4B418008328BA /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
+		4CDCF04D27F4B436008328BA /* ShopGroupAppDB.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = ShopGroupAppDB.db; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		4CDCF00727F499C2008328BA = {
 			isa = PBXGroup;
 			children = (
+				4CDCF04A27F4B403008328BA /* Model */,
 				4CDCF01227F499C2008328BA /* ShopGroupApp */,
 				4CDCF02927F499C4008328BA /* ShopGroupAppTests */,
 				4CDCF03327F499C4008328BA /* ShopGroupAppUITests */,
@@ -125,6 +130,15 @@
 				4CDCF03627F499C4008328BA /* ShopGroupAppUITestsLaunchTests.swift */,
 			);
 			path = ShopGroupAppUITests;
+			sourceTree = "<group>";
+		};
+		4CDCF04A27F4B403008328BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4CDCF04D27F4B436008328BA /* ShopGroupAppDB.db */,
+				4CDCF04B27F4B418008328BA /* DBHelper.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +248,7 @@
 				4CDCF02027F499C4008328BA /* LaunchScreen.storyboard in Resources */,
 				4CDCF01D27F499C4008328BA /* Assets.xcassets in Resources */,
 				4CDCF01B27F499C2008328BA /* Main.storyboard in Resources */,
+				4CDCF04E27F4B436008328BA /* ShopGroupAppDB.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +276,7 @@
 				4CDCF01827F499C2008328BA /* ViewController.swift in Sources */,
 				4CDCF01427F499C2008328BA /* AppDelegate.swift in Sources */,
 				4CDCF01627F499C2008328BA /* SceneDelegate.swift in Sources */,
+				4CDCF04C27F4B418008328BA /* DBHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
