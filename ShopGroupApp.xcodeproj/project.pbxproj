@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D35EA7827F61BFB00A9B590 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D35EA7727F61BFB00A9B590 /* HomePageViewController.swift */; };
+		2D35EA7A27F61C1C00A9B590 /* ItemInfoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D35EA7927F61C1C00A9B590 /* ItemInfoPageViewController.swift */; };
+		2D35EA7C27F61C2F00A9B590 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D35EA7B27F61C2E00A9B590 /* CategoriesViewController.swift */; };
+		2D35EA7E27F61C5800A9B590 /* CartPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D35EA7D27F61C5800A9B590 /* CartPageViewController.swift */; };
+		2D35EA8027F61C6C00A9B590 /* SignInPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D35EA7F27F61C6B00A9B590 /* SignInPageViewController.swift */; };
+		2D35EA8227F61C9000A9B590 /* PlaceOrderPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D35EA8127F61C9000A9B590 /* PlaceOrderPageViewController.swift */; };
+		2D35EA8427F61CE000A9B590 /* YourOrdersPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D35EA8327F61CE000A9B590 /* YourOrdersPageViewController.swift */; };
+		2D35EA8627F61CF400A9B590 /* ReturnsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D35EA8527F61CF400A9B590 /* ReturnsPageViewController.swift */; };
+		2D53352427F62D6C00A83395 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D53352327F62D6C00A83395 /* TestViewController.swift */; };
 		2D7FFD4727F5028C00B1976E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D7FFD4527F5028C00B1976E /* Main.storyboard */; };
 		4CDCF01427F499C2008328BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCF01327F499C2008328BA /* AppDelegate.swift */; };
 		4CDCF01627F499C2008328BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCF01527F499C2008328BA /* SceneDelegate.swift */; };
@@ -38,6 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D35EA7727F61BFB00A9B590 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		2D35EA7927F61C1C00A9B590 /* ItemInfoPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfoPageViewController.swift; sourceTree = "<group>"; };
+		2D35EA7B27F61C2E00A9B590 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		2D35EA7D27F61C5800A9B590 /* CartPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartPageViewController.swift; sourceTree = "<group>"; };
+		2D35EA7F27F61C6B00A9B590 /* SignInPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPageViewController.swift; sourceTree = "<group>"; };
+		2D35EA8127F61C9000A9B590 /* PlaceOrderPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceOrderPageViewController.swift; sourceTree = "<group>"; };
+		2D35EA8327F61CE000A9B590 /* YourOrdersPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourOrdersPageViewController.swift; sourceTree = "<group>"; };
+		2D35EA8527F61CF400A9B590 /* ReturnsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnsPageViewController.swift; sourceTree = "<group>"; };
+		2D53352327F62D6C00A83395 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		2D7FFD4627F5028C00B1976E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Desktop/Revature/XCode Projects/Project3/Project3/Views/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		4CDCF01027F499C2008328BA /* ShopGroupApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopGroupApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CDCF01327F499C2008328BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +98,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D35EA8727F61D5B00A9B590 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CDCF01727F499C2008328BA /* ViewController.swift */,
+				2D35EA7727F61BFB00A9B590 /* HomePageViewController.swift */,
+				2D35EA7927F61C1C00A9B590 /* ItemInfoPageViewController.swift */,
+				2D35EA7B27F61C2E00A9B590 /* CategoriesViewController.swift */,
+				2D35EA7D27F61C5800A9B590 /* CartPageViewController.swift */,
+				2D35EA7F27F61C6B00A9B590 /* SignInPageViewController.swift */,
+				2D35EA8127F61C9000A9B590 /* PlaceOrderPageViewController.swift */,
+				2D35EA8327F61CE000A9B590 /* YourOrdersPageViewController.swift */,
+				2D35EA8527F61CF400A9B590 /* ReturnsPageViewController.swift */,
+				2D53352327F62D6C00A83395 /* TestViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		4CDCF00727F499C2008328BA = {
 			isa = PBXGroup;
 			children = (
@@ -104,9 +139,9 @@
 		4CDCF01227F499C2008328BA /* ShopGroupApp */ = {
 			isa = PBXGroup;
 			children = (
+				2D35EA8727F61D5B00A9B590 /* View Controllers */,
 				4CDCF01327F499C2008328BA /* AppDelegate.swift */,
 				4CDCF01527F499C2008328BA /* SceneDelegate.swift */,
-				4CDCF01727F499C2008328BA /* ViewController.swift */,
 				2D7FFD4527F5028C00B1976E /* Main.storyboard */,
 				4CDCF01C27F499C4008328BA /* Assets.xcassets */,
 				4CDCF01E27F499C4008328BA /* LaunchScreen.storyboard */,
@@ -273,9 +308,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D35EA8227F61C9000A9B590 /* PlaceOrderPageViewController.swift in Sources */,
 				4CDCF01827F499C2008328BA /* ViewController.swift in Sources */,
 				4CDCF01427F499C2008328BA /* AppDelegate.swift in Sources */,
 				4CDCF01627F499C2008328BA /* SceneDelegate.swift in Sources */,
+				2D35EA7827F61BFB00A9B590 /* HomePageViewController.swift in Sources */,
+				2D53352427F62D6C00A83395 /* TestViewController.swift in Sources */,
+				2D35EA8627F61CF400A9B590 /* ReturnsPageViewController.swift in Sources */,
+				2D35EA7A27F61C1C00A9B590 /* ItemInfoPageViewController.swift in Sources */,
+				2D35EA8427F61CE000A9B590 /* YourOrdersPageViewController.swift in Sources */,
+				2D35EA7E27F61C5800A9B590 /* CartPageViewController.swift in Sources */,
+				2D35EA8027F61C6C00A9B590 /* SignInPageViewController.swift in Sources */,
+				2D35EA7C27F61C2F00A9B590 /* CategoriesViewController.swift in Sources */,
 				4CDCF04C27F4B418008328BA /* DBHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +504,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -487,6 +532,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
