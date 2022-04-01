@@ -16,6 +16,7 @@
 		2D35EA8427F61CE000A9B590 /* YourOrdersPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D35EA8327F61CE000A9B590 /* YourOrdersPageViewController.swift */; };
 		2D35EA8627F61CF400A9B590 /* ReturnsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D35EA8527F61CF400A9B590 /* ReturnsPageViewController.swift */; };
 		2D53352427F62D6C00A83395 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D53352327F62D6C00A83395 /* TestViewController.swift */; };
+		2D7BADCC27F7646200981E92 /* SearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7BADCB27F7646200981E92 /* SearchBarViewController.swift */; };
 		2D7FFD4727F5028C00B1976E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D7FFD4527F5028C00B1976E /* Main.storyboard */; };
 		4CDCF01427F499C2008328BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCF01327F499C2008328BA /* AppDelegate.swift */; };
 		4CDCF01627F499C2008328BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCF01527F499C2008328BA /* SceneDelegate.swift */; };
@@ -56,6 +57,7 @@
 		2D35EA8327F61CE000A9B590 /* YourOrdersPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourOrdersPageViewController.swift; sourceTree = "<group>"; };
 		2D35EA8527F61CF400A9B590 /* ReturnsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnsPageViewController.swift; sourceTree = "<group>"; };
 		2D53352327F62D6C00A83395 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		2D7BADCB27F7646200981E92 /* SearchBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
 		2D7FFD4627F5028C00B1976E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Desktop/Revature/XCode Projects/Project3/Project3/Views/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		4CDCF01027F499C2008328BA /* ShopGroupApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopGroupApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CDCF01327F499C2008328BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				2D35EA8327F61CE000A9B590 /* YourOrdersPageViewController.swift */,
 				2D35EA8527F61CF400A9B590 /* ReturnsPageViewController.swift */,
 				2D53352327F62D6C00A83395 /* TestViewController.swift */,
+				2D7BADCB27F7646200981E92 /* SearchBarViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D7BADCC27F7646200981E92 /* SearchBarViewController.swift in Sources */,
 				2D35EA8227F61C9000A9B590 /* PlaceOrderPageViewController.swift in Sources */,
 				4CDCF01827F499C2008328BA /* ViewController.swift in Sources */,
 				4CDCF01427F499C2008328BA /* AppDelegate.swift in Sources */,
